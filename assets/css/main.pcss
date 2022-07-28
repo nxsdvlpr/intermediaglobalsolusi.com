@@ -1,0 +1,41 @@
+@import 'fonts.pcss';
+
+.with-tilted-background:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 560px;
+  background-color: #f4f7fb;
+  -webkit-transform: rotate(-8.5deg);
+  -ms-transform: rotate(-8.5deg);
+  transform: rotate(-8.5deg);
+  -webkit-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  transform-origin: left bottom;
+  z-index: -10;
+
+  @screen lg {
+    height: 720px;
+  }
+
+  @screen xl {
+    height: 780px;
+  }
+
+  @screen 2xl {
+    height: 840px;
+  }
+}
+
+.content {
+  p:first-child {
+    margin-top: 0px;
+  }
+
+  p {
+    margin-top: 2rem;
+  }
+}

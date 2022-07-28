@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@windicss/plugin-animations": "^1.0.9",
+    "nuxt": "^3.0.0-rc.2",
+    "nuxt-windicss": "^2.3.1",
+    "sass": "^1.51.0",
+    "sass-loader": "10",
+    "unplugin-icons": "^0.14.1",
+    "unplugin-vue-components": "^0.19.3"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.2",
+    "javascript-time-ago": "^2.5.1"
+  }
+}
